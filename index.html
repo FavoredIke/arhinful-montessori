@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARHINFUL'S MONTESSORI | Online Admission</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+
+        <div class="school-brand">
+
+            <!-- School Logo -->
+            <img src="logo.png" alt="Arhinful's Montessori Logo" class="school-logo">
+
+            <div class="school-name">
+                <h1>ARHINFUL'S MONTESSORI</h1>
+                <p>Knowledge, Discipline and Excellence</p>
+            </div>
+
+        </div>
+
+        <!-- NAVIGATION MENU -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#admission">Admissions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <section class="form-container" id="admission">
+
+            <div class="form-heading">
+                <h2>ARHINFUL'S MONTESSORI</h2>
+                <h3>Online Admission Form</h3>
+
+                <p>
+                    Kindly complete the form below to apply
+                    for admission into our school.
+                </p>
+            </div>
+
+
+            <!-- ADMISSION FORM -->
+            <form action="#" method="post">
+
+                <!-- STUDENT INFORMATION -->
+                <fieldset>
+
+                    <legend>Student Information</legend>
+
+                    <div class="form-grid">
+
+                        <div class="input-group">
+                            <label for="studentID">Student ID</label>
+                            <input type="text" id="studentID"
+                                name="studentID" placeholder="Enter Student ID">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="surname">Surname</label>
+                            <input type="text" id="surname"
+                                name="surname" placeholder="Enter Surname" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName"
+                                name="firstName" placeholder="Enter First Name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="otherNames">Other Names</label>
+                            <input type="text" id="otherNames"
+                                name="otherNames" placeholder="Enter Other Names">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="class">Class</label>
+                            <select id="class" name="class" required>
+                                <option value="">Select Class</option>
+                                <option>Creche</option>
+                                <option>Nursery 1</option>
+                                <option>Nursery 2</option>
+                                <option>KG 1</option>
+                                <option>KG 2</option>
+                                <option>Basic 1</option>
+                                <option>Basic 2</option>
+                                <option>Basic 3</option>
+                                <option>Basic 4</option>
+                                <option>Basic 5</option>
+                                <option>Basic 6</option>
+                                <option>Basic 7</option>
+                                <option>Basic 8</option>
+                                <option>Basic 9</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="telephone">Telephone</label>
+                            <input type="tel" id="telephone"
+                                name="telephone" placeholder="Enter Telephone Number" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email"
+                                name="email" placeholder="Enter Email Address">
+                        </div>
+
+                        <div class="input-group full-width">
+                            <label for="address">Residential Address</label>
+                            <textarea id="address" name="address"
+                                rows="3" placeholder="Enter Residential Address" required></textarea>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- SCHOOL SERVICES -->
+                <fieldset>
+
+                    <legend>School Services</legend>
+
+                    <div class="service-group">
+
+                        <div class="service-item">
+                            <label for="bus">Joining School Bus?</label>
+                            <select id="bus" name="bus">
+                                <option value="">Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="service-item">
+                            <label for="canteen">Eating from Canteen?</label>
+                            <select id="canteen" name="canteen">
+                                <option value="">Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="service-item">
+                            <label for="residence">Day or Boarding?</label>
+                            <select id="residence" name="residence">
+                                <option value="">Select Option</option>
+                                <option>Day Student</option>
+                                <option>Boarding Student</option>
+                            </select>
+                        </div>
+
+                        <div class="service-item">
+                            <label for="extraClasses">Extra Classes</label>
+                            <select id="extraClasses" name="extraClasses">
+                                <option value="">Select Option</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- CO-CURRICULAR ACTIVITIES -->
+                <fieldset>
+
+                    <legend>Other Co-Curricular Activities</legend>
+
+                    <p class="instruction">
+                        Select the activities the student is interested in:
+                    </p>
+
+                    <div class="activities">
+
+                        <label>
+                            <input type="checkbox" name="activities" value="Sports">
+                            Sports
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="activities" value="Music">
+                            Music
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="activities" value="Drama">
+                            Drama
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="activities" value="Dance">
+                            Dance
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="activities" value="Debate">
+                            Debate
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="activities" value="Art and Craft">
+                            Art and Craft
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- FORM BUTTONS -->
+                <div class="button-group">
+
+                    <button type="submit" class="submit-btn">
+                        Submit
+                    </button>
+
+                    <button type="button" class="update-btn">
+                        Update
+                    </button>
+
+                    <button type="button" class="search-btn">
+                        Search
+                    </button>
+
+                    <button type="reset" class="reset-btn">
+                        Reset
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <p>
+            &copy; 2026 ARHINFUL'S MONTESSORI.
+            All Rights Reserved.
+        </p>
+
+        <p>Contact Us: info@arhinfulsmontessori.com</p>
+
+    </footer>
+
+</body>
+</html>
